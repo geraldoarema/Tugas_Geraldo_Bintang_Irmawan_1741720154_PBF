@@ -1,0 +1,26 @@
+{
+  "posts": [
+    {
+      "id": 1583418460166,
+      "nim": "1741720012",
+      "nama": "Firnanda Kusuma Pratama",
+      "alamat": "Klayatan",
+      "hp": "+6282142753340",
+      "angkatan": "2017",
+      "status": "Aktif"
+    },
+    {
+      "id": 1583418473954,
+      "nim": "1741720012",
+      "nama": "Firnanda Kusuma Pratama",
+      "alamat": "Malang",
+      "hp": "+6282142753340",
+      "angkatan": "2017",
+      "status": "Tidak Aktif"
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}
