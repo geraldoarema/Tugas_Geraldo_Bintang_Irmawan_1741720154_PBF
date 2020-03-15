@@ -1,0 +1,93 @@
+.headers {
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.05);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.2rem 3.7rem;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background: black;
+  z-index: 10;
+}
+
+.headers-top {
+  display: flex;
+  align-items: center;
+}
+
+.headers-top img {
+  margin-right: 2rem;
+  width: 50px;
+}
+
+.headers-bottom a {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.headers-bottom .daftar {
+  background-color: #D0021B;
+  border-color: #D0021B;
+  color: #fff;
+  box-shadow: 0 5px 10px 0 rgba(208, 2, 27, 0.2);
+}
+
+@media (max-width: 769px) {
+  .headers {
+    padding: 1.2rem 1.2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .headers {
+    padding: 1.2rem 1.2rem;
+  }
+}
+
+.menu {
+  margin-bottom: 0;
+}
+
+.menu-items {
+  list-style: none;
+}
+
+.menu-items a {
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+  margin-right: 2.9rem;
+  font-size: 14px;
+}
+
+.headers-bottom a:first-child {
+  margin-right: 2rem;
+  color: white;
+}
+
+@media (max-width: 769px) {
+  .menu-items a {
+    margin-right: 1.2rem;
+  }
+}
+
+
+.all {
+  height: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1 0 auto;
+}
+
+.footers {
+  flex-shrink: 0;
+  background: black;
+  color: white;
+  padding: 1.2rem;
+}
