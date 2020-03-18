@@ -10,6 +10,7 @@ import {
   useLocation
 } from 'react-router-dom';
 import logo from './img/aldo.png';
+import img1 from './img/baju.jpg';
 import './App.css';
 
 export default function AuthExample() {
@@ -88,16 +89,16 @@ function AuthButton() {
 
   return fakeAuth.isAuthenticated ? (
     <div className='text-right'>
-      <a
-        className='btn daftar'
+      <button
+        className='btnbuy'
         onClick={() => {
           fakeAuth.signout(() => history.push('/'));
         }}>
         Sign Out
-      </a>
+      </button>
     </div>
   ) : (
-    <Fragment>Hallo</Fragment>
+    <Fragment>Belanja Skuy</Fragment>
   );
 }
 
@@ -134,7 +135,13 @@ function PublicPage() {
 }
 
 function ProtectedPage() {
-  return <h3>Private</h3>;
+  return (
+    <div>
+      <h3 className='card py-2 px-3'>Private Room</h3>
+      <img src={img1} alt='Img1' />
+      <button className='btnbuy'>BUY</button>
+    </div>
+  );
 }
 
 function Hello() {
@@ -143,8 +150,8 @@ function Hello() {
 
 const Private = () => {
   return (
-    <div>
-      <p>you should login first</p>
+    <div className='d-flex align-items-center justify-content-center'>
+      <h3 className='card py-2 px-3'>You should login first</h3>
     </div>
   );
 };
