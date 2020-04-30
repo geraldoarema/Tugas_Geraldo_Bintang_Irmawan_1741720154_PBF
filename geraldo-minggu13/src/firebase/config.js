@@ -1,0 +1,12 @@
+const firebaseConfig = {
+  apiKey: 'AIzaSyAqeya32QXJCpt22ir5lI_yFazM3UhzRXM',
+  authDomain: 'fir-minggu12.firebaseapp.com',
+  databaseURL: 'https://fir-minggu12.firebaseio.com',
+  projectId: 'fir-minggu12',
+  storageBucket: 'fir-minggu12.appspot.com',
+  messagingSenderId: '188106678432',
+  appId: '1:188106678432:web:b38f06c8b53ef8d44729c5',
+  measurementId: 'G-YZ3C35QB1D',
+};
+
+export default firebaseConfig;
